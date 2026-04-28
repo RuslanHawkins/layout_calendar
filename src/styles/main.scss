@@ -10,6 +10,10 @@ $font-family: Arial, sans-serif;
 $font-size: 30px;
 $transition: 0.5s;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   display: flex;
@@ -30,6 +34,7 @@ body {
     width: $cell-size;
     height: $cell-size;
     box-sizing: border-box;
+    gap: $gap;
 
     background-color: $cell-bg;
     border: $border solid $cell-border;
